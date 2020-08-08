@@ -25,6 +25,8 @@ dependencies {
     testImplementation("io.kotest:kotest-assertions-core-jvm:$kotestVersion")
     testImplementation("io.kotest:kotest-property-jvm:$kotestVersion")
     testImplementation("io.kotest:kotest-runner-console-jvm:$kotestVersion")
+    testImplementation("io.kotest:kotest-extensions-spring:$kotestVersion")
+    testImplementation("org.springframework:spring-test:$springFrameworkVersion")
 }
 
 tasks {

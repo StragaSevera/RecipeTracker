@@ -6,7 +6,7 @@ import ru.ought.recipe_tracker.models.Item
 import ru.ought.recipe_tracker.models.ItemRepository
 
 class ItemRepositoryTest : DescribeSpec({
-    describe("ItemService") {
+    describe("ItemRepositoryTest") {
         it("can add and retrieve items") {
             val sut = ItemRepository()
             sut.addItem(Item("Dirt"))
